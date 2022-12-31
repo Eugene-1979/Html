@@ -1,0 +1,82 @@
+.grids{display: grid; grid-template-columns: 10% 30% auto auto}
+div{border-style: inset;}
+header ul{
+  
+  list-style: none;
+  display: flex;
+ justify-content: center;
+
+}
+p{display: inline-block;}
+li{margin: 20px 20px 20px 0px;display: inline-block;}
+.main{display:grid;
+grid-template-columns:10% auto auto;
+border-style: inset;
+}
+q{background-color: brown;}
+section{border-style: double;}
+
+tr:nth-child(even){background-color: rgb(185, 185, 185);}
+#about{text-align: start;}
+menu  {padding-inline-start: 0px;}
+footer{ margin-top: 0px; background-color: aqua;}
+ td:hover{background-color: rgb(165, 165, 170);cursor: pointer;}
+  li:hover {background-color: rgb(165, 165, 170);
+cursor: pointer;}
+
+
+h1{display: inline-block;}
+
+#pictures{
+  /* background-color: aqua; */
+  
+  display: grid;
+  grid-template-columns: repeat(5,auto)
+  
+  }
+
+
+.modal{
+position: fixed;
+
+display: grid;
+top: 50%;
+left: 50%;
+height: 100px;
+width: 100px;
+background-color: aqua;
+;
+visibility: hidden;
+}
+
+.close{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    border-style: dotted;
+    /* align-self: center; */
+    justify-self:end;
+    text-align: center;
+    text-justify: unset;
+    background-color:blue ;
+  }
+.fixright{position: fixed;
+  background-color: dimgray;
+  top: 40%;
+right: 0;
+width: 20%;
+height: 15%;
+
+}
+.class1{
+  display: flex;
+justify-content: center;
+align-content: center;
+/* justify-items: center;
+align-items: center; */
+}
+
+
+
+
+
